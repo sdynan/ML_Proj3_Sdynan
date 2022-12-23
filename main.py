@@ -24,6 +24,7 @@ def randomForest():
     print(confusion_matrix(y_test, predictions)) # showing accuracy of results
     print('\n')
     print(classification_report(y_test, predictions))  # showing accuracy of predictions
+    print("Changes")
 
 
 
